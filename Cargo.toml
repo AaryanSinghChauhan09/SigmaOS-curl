@@ -2,9 +2,10 @@
 name = "sigmaos_curl"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
+description = "SigmaOS curl HTTP client model: requests, responses, auth, cookies"
 
 [lib]
 name = "sigmaos_curl"
 path = "src/lib.rs"
+
+[dependencies]
