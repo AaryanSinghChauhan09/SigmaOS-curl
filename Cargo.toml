@@ -1,11 +1,15 @@
 [package]
-name = "sigmaos_curl"
+name = "SigmaOS-curl"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS curl HTTP client model: requests, responses, auth, cookies"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_curl component"
 
 [lib]
 name = "sigmaos_curl"
 path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
